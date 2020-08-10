@@ -1,0 +1,70 @@
+* {
+  font-family: 'baloo chettan';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #370412
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #c77c09;
+}
+
+.player {
+  width: 240px;
+  height: 180px;
+  margin: 50px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.weaponBtn {
+  width: 100px;
+  height: 50px;
+  display: inline;
+  margin: auto 15px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 25px;
+  background: #000;
+}
+
+.player:nth-child(2) {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.winner {
+  width: 100px;
+  height: 55px;
+  margin: 1cd r 0px auto;
+  color: brown;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.player-image {
+  height: 130px;
+  width: auto;
+}
+button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 25px;
+  background: #000;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
